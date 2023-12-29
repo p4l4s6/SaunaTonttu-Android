@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.activity.SignupActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Signup Now"
+        android:textColor="@color/blue_dark"
+        android:textSize="30sp"
+        android:gravity="center"/>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <EditText
+        android:drawableStart="@drawable/user_icon"
+        android:drawablePadding="10dp"
+        android:background="@drawable/edittext_bg"
+        android:id="@+id/editTextFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="First Name"/>
+
+    <EditText
+        android:drawableStart="@drawable/user_icon"
+        android:drawablePadding="10dp"
+        android:background="@drawable/edittext_bg"
+        android:id="@+id/editTextLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Last Name"/>
+
+    <EditText
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="10dp"
+        android:background="@drawable/edittext_bg"
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email"/>
+
+    <EditText
+        android:drawableStart="@drawable/ic_password"
+        android:drawablePadding="10dp"
+        android:background="@drawable/edittext_bg"
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:inputType="textPassword"
+        android:hint="Password"/>
+
+    <EditText
+        android:drawableStart="@drawable/ic_password"
+        android:drawablePadding="10dp"
+        android:background="@drawable/edittext_bg"
+        android:id="@+id/editTextConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:inputType="textPassword"
+        android:hint="Confirm Password"/>
+
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/btnSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/primary_btn"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:textStyle="italic"
+            android:text="Already have account? "/>
+
+        <TextView
+            android:id="@+id/tvLogin"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Login Now"/>
+
+    </LinearLayout>
+
+</LinearLayout>

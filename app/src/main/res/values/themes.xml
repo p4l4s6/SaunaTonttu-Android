@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.SauntaTonttu" parent="Theme.AppCompat.Light.NoActionBar" />
+    <style name="Theme.HomeActivity" parent="Theme.AppCompat.Light.DarkActionBar" />
+</resources>

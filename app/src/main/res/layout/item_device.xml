@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:weightSum="10">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:padding="10dp"
+        android:src="@drawable/ic_device" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/device_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Device name" />
+
+        <TextView
+            android:id="@+id/device_mac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mac address" />
+
+        <TextView
+            android:id="@+id/device_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_margin="5dp"
+        android:id="@+id/device_delete_btn"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:src="@drawable/ic_delete" />
+
+</LinearLayout>

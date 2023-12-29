@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Saunta Tonttu</string>
+    <string name="please_wait">Please wait</string>
+    <string name="first_name">First Name</string>
+    <string name="sign_up">Sign up</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_device">Devices</string>
+    <string name="title_account">Account</string>
+</resources>
